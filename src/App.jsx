@@ -110,7 +110,7 @@ function App() {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <img src="/images__1_-removebg-preview.png" alt="Logo UNERG" />
+          <img src={import.meta.env.BASE_URL + 'images__1_-removebg-preview.png'} alt="Logo" />
           <div>
             <strong>UNERG</strong>
             <span>CRH 27</span>
