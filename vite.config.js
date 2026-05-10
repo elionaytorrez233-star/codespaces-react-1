@@ -6,8 +6,5 @@ export default defineConfig({
   plugins: [react()],
     globals: true,
     environment: 'jsdom',
-  },
-  base: '/codespaces-react-1/' 
-  // fix base path
-})
+  base: '/codespaces-react-1/' //
 
